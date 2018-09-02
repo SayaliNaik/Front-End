@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+
+nav {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  border: none !important;
+  font-family: 'Quicksand', sans-serif;
+  color: #e24e42;
+  text-align: center !important;
+}
+
+nav a {
+  text-decoration: none !important;
+  color: inherit !important;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+nav a .current {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+section {
+  height: 100vh;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  position: relative;
+  margin-top: 0 !important;
+  align-content:  center; 
+}
+
+#home {
+  background: url("images/cam.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.img-sneha {
+  height: 15vh !important;
+  margin: 30px !important;
+}
+
+.img-sneha img {
+  display: block !important;
+  margin: 0 auto !important;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+
+/*#portfolio .photos img:hover {
+  opacity: 0.7;
+}*/
+.thumbnail img{
+  display: flex;
+  width: 100%;
+
+}
+

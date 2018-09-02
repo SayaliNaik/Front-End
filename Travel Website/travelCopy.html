@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="card.css">
+  <link rel="stylesheet" type="text/css" href="button.css">
+  <link rel="stylesheet" type="text/css" href="styleCopy.css">
+    
+  
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>TRAVEL</title>
+</head>
+
+
+  <body>
+  
+
+
+
+    <nav class="navbar navbar-default navbar-fixed-top nav navbar-nav">
+      <a href="#">HOME</a>|
+      <a href="#about">EXPLORE</a>|
+      <a href="#portfolio">SIGNUP</a>
+    </nav>
+ 
+
+
+
+<!-- PHOTO COVER WITH BUTTONS -------------------------------------------
+    ------------------------------------------------------------------------>
+
+
+
+    <div id="home">
+        <section>
+  <div class="inner">
+    <ul class="activity">
+      <li>
+        <a href="#">Hotels</a>
+      </li>
+      <li>
+        <a href="#">Flights</a>
+      </li>
+      <li>
+        <a href="#">Deals</a>
+      </li>
+     
+    </ul>
+  </div>
+</section>
+    </div>
+
+
+<!-- <div id="home">
+    <section>
+        <div class="row inner">
+            <div class="activity">
+            
+                <div class="col-lg-4 pull-right">   
+                <a href="#">Hotels</a>
+                </div>
+                <div class="col-lg-4">
+                <a href="#">Flights</a>
+                </div>
+                <div class="col-lg-4 pull-left">  
+                <a href="#">Deals</a>
+                </div>
+              
+            
+        </div>
+    </section>
+</div> -->
+
+
+
+
+<!-- WORLD MAP SECTION -------------------------------------------------
+------------------------------------------------------------------------ -->    
+
+
+
+
+    <div id="map" style="width:100%;height:800px"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850); 
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    animation: google.maps.Animation.BOUNCE
+  });
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+
+
+
+<!-- DESTINATIONS TO CHOOSE FROM------------------------------------------
+----------------------------------------------------------------------- -->    
+  
+
+
+    
+        <div class="container-fluid">
+
+              <div class="row" style="margin-top: 60px">
+
+
+                  <div class="col-lg-6 col-sm-6 fancy-card">
+                    <div class="thumbnail top">
+                      <a href="https://www.google.com"><img src="images/arch2.jpg" /></a>
+                      </div>
+                    <div class="thumbnail middle"><img src="images/arch1.jpg" /></div>
+                    <div class="thumbnail bottom"><img src="images/Paris.jpg" /></div>
+                  </div>
+
+
+                  <div class="col-lg-6 col-sm-6 fancy-card">
+                    <div class="thumbnail top">
+                      <a href="https://www.google.com"><img src="images/beach_sunset.jpg" /></a>
+                      </div>
+                    <div class="middle"></div>
+                    <div class="bottom"></div>
+                  </div>
+
+                   <br>
+              </div>
+
+              <div class="row">
+
+
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="thumbnail">
+                      <a href="https://www.google.com"><img  src="images/cities.jpg" /></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="thumbnail">
+                      <a href="https://www.google.com"><img src="images/wildlife.jpg" /></a>
+                    </div>
+                  </div>
+                   <br>
+              </div>   
+
+                <div class="row">  
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="thumbnail">
+                      <a href="https://www.google.com"><img src="images/concert.jpg" /></a>
+                    </div>  
+                  </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="thumbnail">
+                      <a href="https://www.google.com"><img src="images/Iceland.jpg" /></a>
+                    </div>  
+                  </div>
+                  <br>   
+              </div>
+        </div>
+
+      
+
+    <!-- end sections -->
+
+
+          
+
+          
+
+         <!--  <a href="https://www.google.com"><img class="img-responsive" src="images/wildlife.jpg" /></a>
+
+          
+
+          <a href="https://www.google.com"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/7f897323687401.54e0a5e33ced4.png" /></a> -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="mainCopy.js"></script>
+
+
+</body>
+</html>
